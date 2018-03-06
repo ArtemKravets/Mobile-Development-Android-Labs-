@@ -184,7 +184,7 @@ public class PollsActivity extends AppCompatActivity implements View.OnClickList
 
             Intent intent = new Intent(this, ResultActivity.class);
 
-            if(wrong_aswers <= 3) messageAboutCompPolls = "Поздравляем! Вы успешно прошли тест! :)";
+            if(wrong_aswers < 3) messageAboutCompPolls = "Поздравляем! Вы успешно прошли тест! :)";
 
             intent.putExtra("messageAboutCompPolls", messageAboutCompPolls);
             intent.putExtra("rightAnswerMessage", (arr_polls.length - wrong_aswers) + "");
