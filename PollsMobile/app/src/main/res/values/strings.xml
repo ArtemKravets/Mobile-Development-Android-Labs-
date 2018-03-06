@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PollsMobile</string>
+
+    <!--Hints-->
+    <string name="hint_pass">Введити пароль</string>
+    <string name="hint_enter_button">Войти</string>
+    <string name="hint_about_app">О приложении</string>
+    <string name="hint_exit">Выход</string>
+    <string name="hint_about_app_text">Приложение разработано Артемкой. Copyright © 2018</string>
+
+    <!--Hints for polls-->
+    <string name="hint_current_question">Текущий вопроч</string>
+    <string name="hint_option1">Варик 1</string>
+    <string name="hint_option2">Варик 2</string>
+    <string name="hint_option3">Варик 3</string>
+    <string name="hint_next_poll">Продолжить</string>
+
+    <!--Hint for result page-->
+    <string name="hint_text_congratulation">Поздравляем! Вы прошли тест</string>
+
+</resources>

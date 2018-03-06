@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PollsActivity">
+
+    <item android:id="@+id/aboutApp"
+    android:title="@string/hint_about_app"/>
+
+    <item android:id="@+id/exitButton"
+        android:title="@string/hint_exit"/>
+
+</menu>
