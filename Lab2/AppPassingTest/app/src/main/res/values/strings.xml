@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AppPassingTest</string>
+
+    <!--Hints-->
+
+    <string name="input_login">Введите логин</string>
+    <string name="input_pass">Введите пароль</string>
+    <string name="input_name">Ваше Имя</string>
+    <string name="input_last_name">Ваша Фамилия</string>
+    <string name="input_patronymic">Ваше Отчество</string>
+    <string name="input_new_login">Ваш логин</string>
+    <string name="input_new_pass_first">Придумайте пароль</string>
+    <string name="input_new_pass_second">Повторите пароль</string>
+    <string name="button_next_question">Продолжить</string>
+    <string name="button_repeat_test">Пройти тест еще раз!</string>
+    <string name="button_about_app">О приложении</string>
+    <string name="button_exit_app">Выход</string>
+    <string name="hint_about_app_text">Приложение разработано Артемкой. Copyright © 2018</string>
+</resources>
