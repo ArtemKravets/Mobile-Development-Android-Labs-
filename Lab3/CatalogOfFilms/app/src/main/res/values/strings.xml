@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CatalogOfFilms</string>
+    <string name="input_login">Логин</string>
+    <string name="input_pass">Пароль</string>
+
+    <string name="input_new_login">Логин</string>
+    <string name="input_first_pass">Введите пароль</string>
+    <string name="input_repeat_pass">Повторите пароль</string>
+    <string name="input_full_name">ФИО</string>
+    <string name="input_date_birth">Дата рождения</string>
+</resources>

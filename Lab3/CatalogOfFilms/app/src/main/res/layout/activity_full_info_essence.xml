@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/posterFull"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/interstellar"/>
+
+        <LinearLayout
+            android:id="@+id/div2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/titleFull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Название фильма"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/countryFull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Страна"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/ratingFull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Рейтинг"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/descriptionFull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:scrollbars="vertical"
+        android:text="Два американских судебных пристава отправляются на один из островов в штате Массачусетс, чтобы расследовать исчезновение пациентки клиники для умалишенных преступников. При проведении расследования им придется столкнуться с паутиной лжи, обрушившимся ураганом и смертельным бунтом обитателей клиники."
+        android:textSize="20dp" />
+
+</LinearLayout>

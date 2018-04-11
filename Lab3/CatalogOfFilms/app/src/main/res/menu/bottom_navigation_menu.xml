@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/transition_list_of_films"
+        android:enabled="true"
+        android:title="Фильмы"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/transition_list_of_series"
+        android:enabled="true"
+        android:title="Сериалы"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/transition_profile_user"
+        android:enabled="true"
+        android:title="Профиль"
+        app:showAsAction="ifRoom"/>
+
+</menu>
