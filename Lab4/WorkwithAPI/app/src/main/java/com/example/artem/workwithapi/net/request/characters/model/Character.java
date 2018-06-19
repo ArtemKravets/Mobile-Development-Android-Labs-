@@ -1,7 +1,5 @@
 package com.example.artem.workwithapi.net.request.characters.model;
 
-import android.media.Image;
-
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
@@ -16,6 +14,8 @@ public class Character implements Serializable {
     private String name;
     @SerializedName("thumbnail")
     private Image thumbnail;
+    @SerializedName("description")
+    private String description;
 
     public String getName() {
         return name;
@@ -31,6 +31,12 @@ public class Character implements Serializable {
 
     public void setThumbnail(Image thumbnail) {
         this.thumbnail = thumbnail;
+    }
+
+    public String getDescription(){return description ;}
+
+    public void setDescription(String stories) {
+        this.description  = description ;
     }
 
     @Override
