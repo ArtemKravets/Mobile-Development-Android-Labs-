@@ -1,5 +1,6 @@
 package com.example.artem.roadtovacation.Fragments;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -50,8 +51,6 @@ public class FragmentListOfComic extends Fragment implements View.OnClickListene
 
     private Button addFavoriteComic;
 
-    private Button test;
-
     ArrayList<Comics> comics = new ArrayList<Comics>();
     AdapterListOfComics adapterListOfComics;
 
@@ -64,12 +63,9 @@ public class FragmentListOfComic extends Fragment implements View.OnClickListene
 
         adapterListOfComics = new AdapterListOfComics(getActivity().getApplicationContext(), comics);
 
+
         addFavoriteComic = viewList.findViewById(R.id.addFavoriteComic);
-
-        test = view.findViewById(R.id.test);
-
         addFavoriteComic.setOnClickListener(this);
-        test.setOnClickListener(this);
 
 
         MarvelApi marvelApi = MarvelApi.getInstance();
@@ -149,6 +145,7 @@ public class FragmentListOfComic extends Fragment implements View.OnClickListene
                                }
                            }
                 );
+
 
         return view;
     }
