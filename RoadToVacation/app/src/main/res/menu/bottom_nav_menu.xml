@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/openListOfComic"
+        android:enabled="true"
+        android:icon="@drawable/darooovaaa_min"
+        android:title="Список комиксов"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/currentListHero"
+        android:enabled="true"
+        android:icon="@drawable/darooovaaa_min"
+        android:title="Список персонажей"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/openFavorites"
+        android:enabled="true"
+        android:icon="@drawable/darooovaaa_min"
+        android:title="Избранные"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/openSettingsUser"
+        android:enabled="true"
+        android:icon="@drawable/darooovaaa_min"
+        android:title="Профиль"
+        app:showAsAction="ifRoom"/>
+
+</menu>
